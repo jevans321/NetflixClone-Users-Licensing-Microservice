@@ -1,6 +1,6 @@
+// ----- Dependencies ----- //
 const knex = require('../connection');
 const redis = require('redis');
-//const asyncRedis = require("async-redis");
 //const client = redis.createClient(6379, '127.0.0.1', {no_ready_check: true});
 const client = redis.createClient(6379, process.env.redis_host, {no_ready_check: true});
 const {promisify} = require('util');
@@ -16,7 +16,7 @@ client.on('connect', function() {
 
 module.exports = {
 
-  // ----- PostgresSQL Queries ----------------------
+  // ----- PostgresSQL Queries ---------------------- //
 
   addIpAndRegionInRegionsTablePG: (ipParam, regionParam) => {
     return knex('regions')
@@ -44,14 +44,13 @@ module.exports = {
   },
 
   valueExistsInPostgres: (value, table, column) => {
-    //'select exists(SELECT userid FROM users WHERE userid = ' + req.body.userId + ')';
     let inner = knex(table).select(column).where(column, value);
     return knex.raw(inner)
     .wrap('select exists (', ')');
   },
 
 
-  // ----- Redis Queries ----------------------
+  // ----- Redis Queries ------------------------- //
 
   hashSet: (hashName, idVal, statusVal, regionVal) => {
     client.HMSET(hashName, {'userid': idVal, 'subscriptionstatus': statusVal, 'region': regionVal}, redis.print);
@@ -66,7 +65,6 @@ module.exports = {
     return hgetallAsync(hashName).then(function(res) {
       return res;
     });
-    //return await client.hgetall(hashName);
   },
   
   hashExists: (hashName) => {
