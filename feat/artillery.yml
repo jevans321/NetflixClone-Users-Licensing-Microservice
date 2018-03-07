@@ -1,0 +1,21 @@
+config:
+ # target: 'http://ec2-52-53-209-88.us-west-1.compute.amazonaws.com:1337'
+  target: 'http://user-license-loadbalancer-19888974.us-west-1.elb.amazonaws.com:1337'
+  phases:
+    - duration: 30
+      arrivalRate: 50
+      rampTo: 100
+      name: "Warm up the application"
+    - duration: 30
+      arrivalRate: 100
+      name: "Sustained max load"
+  processor: "./my-functions.js"   
+scenarios:
+  - name: "Get user data"
+    flow:
+      # call generateRandomData() to create the userid, ip, and subcription status variables
+      - function: "generateRandomData"
+      - get:
+          url: "/user/{{ userid }}"
+      # Print the data being sent:
+      # - log: "Sent a GET request to /users/{{ userid }}"
