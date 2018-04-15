@@ -11,7 +11,8 @@ Elasticache: Redis cache
 
 ## Testing
 Mocha Chai
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js)
 
 ## Load Testing
 Artillery
