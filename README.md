@@ -11,13 +11,10 @@ Elasticache: Redis cache
 
 ## Testing
 Mocha Chai
-
-
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js)
 
 ## Load Testing
 Artillery
-
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/artillery.yml](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/artillery.yml)
 
 New Relic
