@@ -11,9 +11,18 @@ Elasticache: Redis cache<br/>
 Node.JS<br/>
 Koa<br/>
 Knex<br/>
+PostgreSQL Database
+Database Queries: 
 
+## API's
+[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
+](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js)
 
-## Testing
+## Database Queries
+[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js
+](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js)
+
+## Unit Testing
 Mocha Chai<br/>
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js)
 
@@ -23,6 +32,6 @@ Artillery<br/>
 
 New Relic
 
-## Data Generator
+## Data Generation Script
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/dataGen.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/dataGen.js)
 
