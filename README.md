@@ -7,7 +7,7 @@ EC2: Node Server with Koa framework<br/>
 RDS: PostgreSQL Database<br/>
 Elasticache: Redis cache<br/>
 
-**Tech**
+### Tech
 Node.JS<br/>
 Koa<br/>
 Knex<br/>
@@ -17,7 +17,7 @@ Artillery<br/>
 New Relic<br/>
 Axios
 
-**API Calls**
+### API Calls
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
 ](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js)
 
