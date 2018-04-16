@@ -39,7 +39,7 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/dataGen.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/dataGen.js)
 
 ### Data Flow
-#### /login endpoint
+### /login endpoint
 When a user logs into the app, a POST request is sent from the /login endpoint to the User & Licensing Service.
 The POST request contains the users info: Client IP address and subscription status.
 A country region is generated based on the IP address. The users info is stored in a postgreSQL database and a Redis cache.
@@ -48,7 +48,7 @@ A POST request is then sent from this User & Licensing microervice to the Client
 The POST request contains the user ID, region, and subscription status.
 This data is retrieved from the Redis cache if available. Otherwise it is retrieved from the postgreSQL database.
 
-#### /user/:userid endpoint
+### /user/:userid endpoint
 If a user data cache miss occurs in the Client Facing Server:
 A GET request is made for user data by the Client Facing Server to the User & Licensing Service
 The data requested is the user ID, region, and subscription status
