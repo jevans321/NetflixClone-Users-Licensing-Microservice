@@ -8,14 +8,14 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 * Elasticache: Redis cache<br/>
 
 ### Tech
-Node.JS<br/>
-Koa<br/>
-Knex<br/>
-PostgreSQL Database<br/>
-Redis Cache<br/>
-Artillery<br/>
-New Relic<br/>
-Axios
+* Node.JS<br/>
+* Koa<br/>
+* Knex<br/>
+* PostgreSQL Database<br/>
+* Redis Cache<br/>
+* Artillery<br/>
+* New Relic<br/>
+* Axios
 
 ### API Calls
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
@@ -26,12 +26,12 @@ Axios
 ](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js)
 
 ### Unit Testing
-Mocha Chai<br/>
+**Mocha Chai**<br/>
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js)
 
 ### Load Testing
-New Relic<br/>
-Artillery<br/>
+* New Relic<br/>
+* Artillery<br/>
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/artillery.yml](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/artillery.yml)
 
 ### Data Generation Script
