@@ -1,13 +1,17 @@
 # NetflixClone-Users-Licensing-Microservice
-Back-End System Design of Netflix Clone Application to measure daily viewing patterns
+This is a back-end System Design project of a Netflix-Clone Application. I created a microservice that assigns regions for each user based on their IP address and stores the users account data.
 
 ## Deployment
-Amazon Web Services
-EC2: Node Server with Koa framework
-RDS: PostgreSQL Database
-Elasticache: Redis cache
+Amazon Web Services<br/>
+EC2: Node Server with Koa framework<br/>
+RDS: PostgreSQL Database<br/>
+Elasticache: Redis cache<br/>
 
 ## Tech
+Node.JS<br/>
+Koa<br/>
+Knex<br/>
+
 
 ## Testing
 Mocha Chai<br/>
