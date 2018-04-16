@@ -1,4 +1,4 @@
-# NetflixClone-Users-Licensing-Microservice
+# NetflixClone- Users & Licensing Microservice
 This is a back-end System Design project of a Netflix-Clone Application. I created a microservice that assigns regions for each user based on their IP address and stores the users account data to a PostgreSQL database.
 
 ### Deployment
@@ -7,12 +7,13 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 * RDS: PostgreSQL Database<br/>
 * Elasticache: Redis cache<br/>
 
-### Tech
+### Tech Stack:
 * Node.JS<br/>
 * Koa<br/>
 * Knex<br/>
 * PostgreSQL Database<br/>
 * Redis Cache<br/>
+* Mocha / Chai<br/>
 * Artillery<br/>
 * New Relic<br/>
 * Axios
