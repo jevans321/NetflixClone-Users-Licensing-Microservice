@@ -26,7 +26,7 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 ](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js)
 
 ### Unit Testing
-**Mocha Chai**<br/>
+**Mocha / Chai**<br/>
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/test/routes.index.test.js)
 
 ### Load Testing
