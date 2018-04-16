@@ -3,9 +3,9 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 
 ### Deployment
 **Amazon Web Services**<br/>
-EC2: Node Server with Koa framework<br/>
-RDS: PostgreSQL Database<br/>
-Elasticache: Redis cache<br/>
+* EC2: Node Server with Koa framework<br/>
+* RDS: PostgreSQL Database<br/>
+* Elasticache: Redis cache<br/>
 
 ### Tech
 Node.JS<br/>
