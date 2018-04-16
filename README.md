@@ -2,12 +2,12 @@
 This is a back-end System Design project of a Netflix-Clone Application. I created a microservice that assigns regions for each user based on their IP address and stores the users account data.
 
 ### Deployment
-Amazon Web Services<br/>
+**Amazon Web Services**<br/>
 EC2: Node Server with Koa framework<br/>
 RDS: PostgreSQL Database<br/>
 Elasticache: Redis cache<br/>
 
-### Tech
+**Tech**
 Node.JS<br/>
 Koa<br/>
 Knex<br/>
@@ -17,7 +17,7 @@ Artillery<br/>
 New Relic<br/>
 Axios
 
-### API Calls
+**API Calls**
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
 ](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js)
 
