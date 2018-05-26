@@ -18,13 +18,16 @@ This is a back-end System Design project of a Netflix-Clone Application. I creat
 * New Relic<br/>
 * Axios
 
-### API Calls:
-[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
-](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js)
+### Database Schema (Knex syntax):
+[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/migrations/20180214033316_create_users_and_regions_tables.js](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/migrations/20180214033316_create_users_and_regions_tables.js)
 
 ### Database Queries:
 [github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js
 ](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/db/queries/index.js)
+
+### API Calls:
+[github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js
+](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/feat/routes/index.js)
 
 ### Unit Testing:
 **Mocha / Chai**<br/>
