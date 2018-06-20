@@ -1,6 +1,8 @@
 # NetflixClone- Users & Licensing Microservice
 This is a back-end System Design project of a Netflix-Clone Application. I created a microservice that assigns regions for each user based on their IP address and stores the users account data to a PostgreSQL database. 10 million records were added to the database and the database queries were optimized.
 
+![alt text](https://github.com/jevans321/NetflixClone-Users-Licensing-Microservice/blob/master/users_microservice_jamesevans4.png)
+
 ### Deployment:
 **Amazon Web Services**<br/>
 * EC2: Node Server with Koa framework<br/>
